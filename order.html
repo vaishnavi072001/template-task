@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Page</title>
+</head>
+<body>
+    <form action="ordersuccess.html">
+        <input type="text" id="name" placeholder="Name" pattern="(?=.*[A-Z])(?=.*[a-z]){3,30}" required>
+        <br>
+        <input type="number" name="phno" id="Mobile Number" placeholder="Mobile Number" 
+         pattern="\+91[6-9]\d{9}" 
+         title="should follow indian format(+91) and length should be 10" required><br>
+        <input type="text" id="quantity" placeholder="Quantity" required><br>
+        <textarea rows="20" cols="19" maxlength="20"></textarea><br>
+        <input type="submit" value="Place Order" >
+        </form>
+
+       
+    
+</body>
+</html
